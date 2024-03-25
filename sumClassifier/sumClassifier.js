@@ -16,13 +16,13 @@ function sumClassifier(numbers) {
   for (let index = 0; index < numbers.length; index++) {
     sum += numbers[index];
   }
-  let result = "small Sum";
+  let result = "Small Sum";
   if (sum > 10) {
     // jika sum lebih dari  10 maka akan menghasilkan Large sum
     result = "Large Sum";
   } else if (sum === 10) {
     //jika tidak sama dengan 10 maka akan menghasikan equal sum
-    result = "Equal sum";
+    result = "Equal Sum";
   }
   return result; // hasil dari  variabel result akan menampilkan small sum
 }
