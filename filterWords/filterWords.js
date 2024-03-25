@@ -17,7 +17,7 @@ function filterWords(word) {
   for (let index = 0; index < word.length; index++) {
     let nama = word[index];
     // console.log(nama);
-    if (nama.length === 3) {
+    if (nama.length > 3) {
       result.push(nama);
     }
   }

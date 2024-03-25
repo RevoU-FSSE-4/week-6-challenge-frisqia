@@ -132,13 +132,13 @@
 // Function paymentCheckout (amount = 0, paymentProvider = “cash”){
 // 	Switch(paymentProvider) {
 // 	Case “QRIS”:{
-// 	Console.log(“payment success with QRIS”);
+// 	Console.log("payment success with QRIS");
 // 	Break;}
 // 	Case “BCA”:{
-// 	Console.log(“payent success with BCA);
+// 	Console.log("payent success with BCA");
 // 	Break;}
 // 	Case “BNI”:{
-// 	Console.log(“payent success with BNI);
+// 	Console.log("payent success with BNI");
 // 	Break;}
 // }
 // }
@@ -157,18 +157,18 @@
 // IntroductionText.textContent = "Hello I'm a At Engineer";
 // IntroductionText.style.color = "red";
 
-var textById = document.getElementById("text");
-var buttonColor = document.querySelector("button");
-buttonColor.onclick = setColorToRed;
-var imgTag = document.querySelector("img");
-textById.textContent = "Hello i'm a At Engineer";
-var inputText = document.querySelectorAll("input")[0];
+// var textById = document.getElementById("text");
+// var buttonColor = document.querySelector("button");
+// buttonColor.onclick = setColorToRed;
+// var imgTag = document.querySelector("img");
+// textById.textContent = "Hello i'm a At Engineer";
+// var inputText = document.querySelectorAll("input")[0];
 
-function setColorToRed() {
-  textById.style.color = "red";
-}
-function setLowerCase() {
-  var currentValue = inputText.value;
-  var lowerCaseValue = currentValue.toLowerCase();
-  inputText.value = lowerCaseValue;
-}
+// function setColorToRed() {
+//   textById.style.color = "red";
+// }
+// function setLowerCase() {
+//   var currentValue = inputText.value;
+//   var lowerCaseValue = currentValue.toLowerCase();
+//   inputText.value = lowerCaseValue;
+// }
